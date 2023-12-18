@@ -26,7 +26,7 @@ def Ddate_df(df):
     return Ddate_df
 
 # Load the main_data.csv file
-main_data = pd.read_csv("main_data.csv")
+main_data = pd.read_csv("https://github.com/zakizulham/rent-bicycle/blob/main/dashboard/main_data.csv")
 
 # Sort and reset index for main_data
 main_data.sort_values(by="dteday", inplace=True)
